@@ -23,7 +23,7 @@ class Solution:
                     return min(Aright, Bright)
                 
                 else:
-                    return (min(Aright, Bright) + max(Aleft, Aleft)) / 2
+                    return (min(Aright, Bright) + max(Aleft, Bleft)) / 2
                 
             elif Aleft > Bright:
                 right = i - 1
